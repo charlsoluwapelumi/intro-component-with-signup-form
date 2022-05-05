@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="container">
+      <div class="content-left">
+        <h1>Learn to code by<br> watching others</h1>
+
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+      </div> 
+
+      <div class="content-right">
+        <div class="card-top">
+          <h3>Try it free 7 days <span>then $20/mo. thereafter</span></h3>
+        </div>
+
+        <div class="card-bottom">
+         <form action="#" id="form">
+          <input type="text" placeholder="First Name" id="fname"><img src="./images/icon-error.svg" class="error one"><br>
+      
+          <small class="error-text" id="one">First Name cannot be empty</small>
+      
+          
+          <input type="text" placeholder="Last Name" id="lname"><img src="./images/icon-error.svg" class="error two"><br>  
+
+          <small class="error-text" id="two">Last Name cannot be empty</small>
+          
+          <input type="email" placeholder="Email Address" id="email"><img src="./images/icon-error.svg" class="error three"><br> 
+
+          <small class="error-text" id="three">Looks like this is not an email</small>
+          
+          <input type="password" placeholder="Password" id="password"><img src="./images/icon-error.svg" class="error four"><br>
+
+          <small class="error-text" id="four">Password cannot be empty</small>
+          
+          <button type="submit">Claim your free trial</button>
+         </form> 
+
+          <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/charlsoluwapelumi">Sns-Charmie</a>.
+    </p>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
